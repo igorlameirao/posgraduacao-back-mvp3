@@ -16,3 +16,10 @@ a aplicação para realizar novas implementações
 Então, nosso comando para execução do projeto será: "uvicorn main:app --reload"
   
  O projeto esta configurado para rodar local na porta 8000.
+
+
+para rodarmos a aplicação basta seguir os passos abaixo: 
+
+1 - docker build -t nomeAplicacao . (docker build -t sprint3_back .) 
+
+2 - docker run -p portaExposta:portaContainer nomeAplicacao (docker run -p 5001:8000 sprint3_back
